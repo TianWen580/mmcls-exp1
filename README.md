@@ -123,7 +123,7 @@ mmcls 0.25.0
 
 - 加载预训练模型
 
-  [下载模型](https://download.openmmlab.com/mmclassification/v0/resnet/resnet18_batch256_imag enet_20200708-34ab8f90.pth)并存放在 *mmclassification/pth/* 中
+  [下载模型](https://download.openmmlab.com/mmclassification/v0/resnet/resnet18_batch256_imagenet_20200708-34ab8f90.pth)并存放在 *mmclassification/pth/* 中
 
 - 启动训练
 
