@@ -5,7 +5,14 @@
 ## INTRODUCTION 介绍
 
 - 使用简单：只需任意摄像头获取图片，就可以得到花卉的「分类标识」
-- 模型文件：https://github.com/TianWen580/mmcls-exp1/releases/download/homework/epoch_43.pth
+- 类名序列：
+  - daisy
+  - dandelion
+  - rose
+  - sunflower
+  - tulip
+
+- 模型文件（"accuracy_top-1": 97.02797）：https://github.com/TianWen580/mmcls-exp1/releases/download/homework/epoch_43.pth
 
 ## 环境配置
 
@@ -72,7 +79,21 @@ mmcls 0.25.0
 ## INTRODUCTION 介绍
 
 - 使用简单：只需任意摄像头获取图片，就可以得到垃圾的「分类标识」
-- 模型文件：https://github.com/TianWen580/mmcls-exp1/releases/download/homework-advanced/latest.pth
+- 类名序列：
+  - paper
+  - green-glass
+  - clothes
+  - metal
+  - cardboard
+  - trash
+  - biological
+  - white-glass
+  - battery
+  - brown-glass
+  - plastic
+  - shoes
+
+- 模型文件（"accuracy_top-1": 95.58918）：https://github.com/TianWen580/mmcls-exp1/releases/download/homework-advanced/latest.pth
 
 ## 环境配置
 
