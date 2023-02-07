@@ -41,7 +41,13 @@ mmcls 0.25.0
 
 - 数据集组织
 
-  可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为如下格式
+  - **下载数据集**：
+
+    国际网：https://www.dropbox.com/s/snom6v4zfky0flx/flower_dataset.zip?dl=0
+
+    国内网：https://pan.baidu.com/s/1RJmAoxCD_aNPyTRX6w97xQ 提取码: 9x5u
+
+  - 可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为如下格式
 
   ```
   |--data
@@ -134,11 +140,12 @@ mmcls 0.25.0
 
     ![SCR-20230207-jpq](https://i.imgur.com/KQ3Jls6.jpg)
 
+
 ## 模型训练与测试
 
 - 数据集组织
 
-  可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为如下格式
+  [下载数据集](https://www.kaggle.com/datasets/mostafaabla/garbage-classification/download?datasetVersionNumber=1)，可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为如下格式
 
   ```
   |--data
