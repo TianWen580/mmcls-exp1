@@ -2,6 +2,8 @@
 
 > 注：本作品是OpenMMLab2023实战营的实验一**基础**作品
 
+![dataset-cover](https://i.imgur.com/VhlkOrW.jpg)
+
 ## INTRODUCTION 介绍
 
 - 使用简单：只需任意摄像头获取图片，就可以得到花卉的「分类标识」
@@ -76,6 +78,8 @@ mmcls 0.25.0
 
 > 注：本作品是OpenMMLab2023实战营的实验一**进阶**作品
 
+![dataset-cover.jpg](https://i.imgur.com/RDVyxz0.jpg)
+
 ## INTRODUCTION 介绍
 
 - 使用简单：只需任意摄像头获取图片，就可以得到垃圾的「分类标识」
@@ -110,14 +114,25 @@ mmcls 0.25.0
 ## SOLUTION 算法方案
 
 - Baseline：ResNet18
+
 - 类别均衡：以数据量最少的类为标准，手动去除了其余类别的部份数据使类别间数据量差异减少
+
 - 数据增广：
+
   - **Resize** ：多尺度增强，比例范围0.75-1.25
   - **RandomCrop**：随机裁剪图像，范围最小为全图75%
   - **RandomFlip**：水平翻转，由于数据普遍以水平视角拍摄，不适合采用垂直翻转
+
 - 测试时增强：
+
   - **MultiScaleFlipFile**：多尺度增强，比例范围0.75, 1.0, 1.25
   - **RandomFlip**：水平翻转
+
+- 学习率策略
+
+  - 线性热身
+
+    ![SCR-20230207-jpq](https://i.imgur.com/KQ3Jls6.jpg)
 
 ## 模型训练与测试
 
