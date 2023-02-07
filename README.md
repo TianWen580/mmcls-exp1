@@ -47,7 +47,7 @@ mmcls 0.25.0
 
     国内网：https://pan.baidu.com/s/1RJmAoxCD_aNPyTRX6w97xQ 提取码: 9x5u
 
-  - 可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为如下格式
+  - 可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为ImageNet格式（训练比0.8）
 
   ```
   |--data
@@ -145,7 +145,7 @@ mmcls 0.25.0
 
 - 数据集组织
 
-  [下载数据集](https://www.kaggle.com/datasets/mostafaabla/garbage-classification/download?datasetVersionNumber=1)，可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为如下格式
+  [下载数据集](https://www.kaggle.com/datasets/mostafaabla/garbage-classification/download?datasetVersionNumber=1)，可以利用脚本 *mmclassification/mytools/dataset_divide.py* 自动划分数据集为ImageNet格式（训练比0.8）
 
   ```
   |--data
